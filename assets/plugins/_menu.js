@@ -65,7 +65,7 @@ Description: ${i.desc}\`\`\``);
       });
 
       menu += `\n`;
-      menu += `_🔖Send ${prefix}menu <command name> to get detailed information of a specific command._\n*📍Eg:* _${prefix}menu plugin_`;
+      menu += `_🔖Send ${prefix}menu <command name> to get detailed informatin of a specific command._\n*📍Eg:* _${prefix}menu plugin_`;
       return await message.sendMessage(message.jid,menu);
     }
   }
